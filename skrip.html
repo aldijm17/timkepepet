@@ -1,63 +1,190 @@
-Berikut adalah draf Script Presentasi versi padat dan efisien. Naskah ini langsung menuju pada inti bahasan teknis secara formal tanpa bertele-tele, namun tetap dikemas secara sopan agar ideal saat dinilai oleh Dosen.
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skrip Presentasi WLAN - Kelompok 1</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f1f5f9;
+            color: #1e293b;
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+        h1 {
+            color: #0f172a;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 10px;
+            font-size: 28px;
+            text-align: center;
+        }
+        .meta-info {
+            text-align: center;
+            color: #64748b;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+        .slide-box {
+            margin-bottom: 25px;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .slide-header {
+            background-color: #0f172a;
+            color: #22d3ee;
+            padding: 12px 20px;
+            font-weight: bold;
+            font-size: 16px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .slide-header .slide-num {
+            background-color: #1e293b;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+        }
+        .slide-body {
+            padding: 20px;
+            background-color: #f8fafc;
+        }
+        .narasi {
+            background-color: #ffffff;
+            border-left: 4px solid #0284c7;
+            padding: 15px;
+            margin: 0;
+            font-size: 15px;
+            color: #334155;
+            font-style: normal;
+        }
+        .keyword {
+            color: #0369a1;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
 
-SCRIPT PRESENTASI WIRELESS LAN (WLAN)
-Slide 1: Judul Utama
-"Selamat pagi/siang Bapak/Ibu Dosen serta rekan-rekan sekalian. Kami dari Kelompok 1, 'Tim Kepepet',
-akan memaparkan materi mengenai Wireless Local Area Network atau WLAN. Mari kita langsung masuk ke pembahasan utama."
+<div class="container">
+    <h1>SKRIP PRESENTASI WIRELESS LAN (WLAN)</h1>
+    <div class="meta-info">Format Panduan Narasi Alur Slide | Kelompok 1 Tim Kepepet</div>
 
-Slide 2 & 3: Definisi & Prinsip Dasar
-"WLAN adalah sistem komunikasi data lokal yang memanfaatkan gelombang elektromagnetik seperti radio atau inframerah sebagai media transmisinya. 
-Berbeda dengan LAN konvensional yang menggunakan kabel fisik seperti UTP, WLAN menyalurkan representasi data digital atau bitstream langsung
-melalui udara bebas sebagai pelengkap ataupun alternatif dari Ethernet."
+    <div class="slide-box">
+        <div class="slide-header">
+            <span>Judul Utama & Pembuka</span>
+            <span class="slide-num">Slide 1</span>
+        </div>
+        <div class="slide-body">
+            <p class="narasi">"Selamat pagi/siang Bapak/Ibu Dosen serta rekan-rekan sekalian. Kami dari Kelompok 1, <span class="keyword">'Tim Kepepet'</span>, akan memaparkan materi mengenai <span class="keyword">Wireless Local Area Network atau WLAN</span>. Mari kita langsung masuk ke pembahasan utama."</p>
+        </div>
+    </div>
 
-Slide 4: Keunggulan & Tantangan
-"Implementasi WLAN menawarkan keunggulan berupa mobilitas tinggi bagi pengguna, efisiensi biaya karena minimnya instalasi kabel, serta skalabilitas 
-yang memudahkan penambahan perangkat baru.
+    <div class="slide-box">
+        <div class="slide-header">
+            <span>Definisi & Prinsip Dasar WLAN</span>
+            <span class="slide-num">Slide 2 & 3</span>
+        </div>
+        <div class="slide-body">
+            <p class="narasi">"WLAN adalah sistem komunikasi data lokal yang memanfaatkan <span class="keyword">gelombang elektromagnetik</span> seperti radio atau inframerah sebagai media transmisinya. Berbeda dengan LAN konvensional yang menggunakan kabel fisik seperti UTP, WLAN menyalurkan representasi data digital atau <i>bitstream</i> langsung melalui udara bebas sebagai pelengkap ataupun alternatif dari Ethernet."</p>
+        </div>
+    </div>
 
-Namun, teknologi ini memiliki tantangan teknis berupa kerentanan keamanan karena medium udara yang terbuka, risiko interferensi
-sinyal oleh material bangunan atau frekuensi lain, serta fluktuasi kecepatan data yang sangat dipengaruhi oleh jarak geografis."
+    <div class="slide-box">
+        <div class="slide-header">
+            <span>Analisis Keunggulan & Tantangan Teknis</span>
+            <span class="slide-num">Slide 4</span>
+        </div>
+        <div class="slide-body">
+            <p class="narasi">"Implementasi WLAN menawarkan <span class="keyword">keunggulan</span> berupa mobilitas tinggi bagi pengguna, efisiensi biaya karena minimnya instalasi kabel, serta skalabilitas yang memudahkan penambahan perangkat baru.<br><br>
+            Namun, teknologi ini memiliki <span class="keyword">tantangan teknis</span> berupa kerentanan keamanan karena medium udara yang terbuka, risiko interferensi sinyal oleh material bangunan atau frekuensi lain, serta fluktuasi kecepatan data yang sangat dipengaruhi oleh jarak geografis."</p>
+        </div>
+    </div>
 
-Slide 5 & 6: Evolusi Wi-Fi (Standardisasi)
-"Operasional nirkabel ini distandardisasi secara global melalui protokol IEEE 802.11. Perkembangannya diawali oleh Wi-Fi 1 (802.11b) pada tahun 1999 
-dengan kecepatan 11 Mbps di frekuensi 2.4 GHz.
+    <div class="slide-box">
+        <div class="slide-header">
+            <span>Evolusi Standar Protokol Wi-Fi</span>
+            <span class="slide-num">Slide 5 & 6</span>
+        </div>
+        <div class="slide-body">
+            <p class="narasi">"Operasional nirkabel ini distandardisasi secara global melalui protokol <span class="keyword">IEEE 802.11</span>. Perkembangannya diawali oleh <b>Wi-Fi 1 (802.11b)</b> pada tahun 1999 dengan kecepatan 11 Mbps di frekuensi 2.4 GHz.<br><br>
+            Evolusi berlanjut pada <b>Wi-Fi 4 (802.11n)</b> yang memperkenalkan teknologi multi-antena atau <span class="keyword">MIMO</span> untuk mencapai kecepatan 600 Mbps. Selanjutnya, <b>Wi-Fi 5 (802.11ac)</b> mengkhususkan diri pada frekuensi 5 GHz dengan fitur <span class="keyword">MU-MIMO</span> demi kecepatan skala Gigabit. Dan standar mutakhir saat ini adalah <b>Wi-Fi 6 (802.11ax)</b> yang mengintegrasikan teknologi <span class="keyword">OFDMA</span> guna menjaga efisiensi dan kestabilan jaringan di lingkungan yang padat perangkat."</p>
+        </div>
+    </div>
 
-Evolusi berlanjut pada Wi-Fi 4 (802.11n) yang memperkenalkan teknologi multi-antena atau MIMO untuk mencapai kecepatan 600 Mbps.
-Selanjutnya, Wi-Fi 5 (802.11ac) mengkhususkan diri pada frekuensi 5 GHz dengan fitur MU-MIMO demi kecepatan skala Gigabit. 
-Dan standar mutakhir saat ini adalah Wi-Fi 6 (802.11ax) yang mengintegrasikan teknologi OFDMA guna menjaga efisiensi dan kestabilan jaringan di lingkungan yang padat perangkat."
+    <div class="slide-box">
+        <div class="slide-header">
+            <span>Komponen Utama Infrastruktur</span>
+            <span class="slide-num">Slide 7 & 8</span>
+        </div>
+        <div class="slide-body">
+            <p class="narasi">"Infrastruktur WLAN didukung oleh tiga komponen utama. Pertama adalah <span class="keyword">Access Point (AP)</span> yang berfungsi sebagai stasiun pangkalan untuk menjembatani jaringan kabel dan nirkabel. Kedua adalah <span class="keyword">Wireless Client</span>, yaitu perangkat pengguna seperti laptop atau <i>smartphone</i> yang memiliki <i>Wireless NIC</i>. Ketiga adalah <span class="keyword">Wireless Bridge</span> untuk menghubungkan dua jaringan terpisah, didukung oleh <span class="keyword">Antena</span> tipe <i>Omni-directional</i> maupun <i>Directional</i>."</p>
+        </div>
+    </div>
 
-Slide 7 & 8: Komponen Utama
-"Infrastruktur WLAN didukung oleh tiga komponen utama. Pertama adalah Access Point (AP) yang berfungsi sebagai stasiun pangkalan
-untuk menjembatani jaringan kabel dan nirkabel. Kedua adalah Wireless Client, yaitu perangkat pengguna seperti laptop atau smartphone 
-yang memiliki Wireless NIC. Ketiga adalah Wireless Bridge untuk menghubungkan dua jaringan terpisah, didukung oleh Antena tipe Omni-directional maupun Directional."
+    <div class="slide-box">
+        <div class="slide-header">
+            <span>Topologi Operasional Jaringan</span>
+            <span class="slide-num">Slide 9</span>
+        </div>
+        <div class="slide-body">
+            <p class="narasi">"WLAN dapat dioperasikan dalam dua jenis topologi. Pertama adalah <span class="keyword">Mode Ad-Hoc (IBSS)</span> yang bersifat <i>peer-to-peer</i> atau koneksi langsung antarnode tanpa melibatkan Access Point. Kedua adalah <span class="keyword">Mode Infrastructure</span>, yaitu arsitektur terpusat yang mewajibkan seluruh lalu lintas data melewati Access Point. Penggabungan beberapa area Access Point dalam satu nama SSID yang sama disebut sebagai <span class="keyword">Extended Service Set (ESS)</span>."</p>
+        </div>
+    </div>
 
-Slide 9: Topologi Jaringan
-"WLAN dapat dioperasikan dalam dua jenis topologi. Pertama adalah Mode Ad-Hoc (IBSS) yang bersifat peer-to-peer atau koneksi 
-langsung antarnode tanpa melibatkan Access Point. Kedua adalah Mode Infrastructure, yaitu arsitektur terpusat yang mewajibkan 
-seluruh lalu lintas data melewati Access Point. Penggabungan beberapa area Access Point dalam satu nama SSID yang sama disebut sebagai Extended Service Set (ESS)."
+    <div class="slide-box">
+        <div class="slide-header">
+            <span>Mekanisme Kontrol Akses Media: CSMA/CA</span>
+            <span class="slide-num">Slide 10</span>
+        </div>
+        <div class="slide-body">
+            <p class="narasi">"Karena karakteristik udara sebagai media yang digunakan bersama (<i>shared medium</i>), WLAN menerapkan metode <span class="keyword">CSMA/CA</span> dengan prinsip <i>'Listen Before Talk'</i> untuk mencegah tabrakan data (<i>collision</i>).<br><br>
+            Prosesnya terbagi menjadi empat langkah dasar: Pertama, <b>Carrier Sense</b>, perangkat mendengarkan jalur udara untuk memastikan tidak ada aktivitas. Kedua, <b>Random Backoff</b>, jika jalur sibuk, perangkat menunda transmisi dan mengantre dalam waktu acak. Ketiga, <b>Transmisi Data</b>, jika jalur kosong dalam interval aman (DIFS), data langsung dikirim. Keempat, <b>Acknowledgment (ACK)</b>, penerima mengirim balik sinyal ACK sebagai bukti data sukses diterima."</p>
+        </div>
+    </div>
 
-Slide 10: Mekanisme Transmisi CSMA/CA
-"Karena karakteristik udara sebagai media yang digunakan bersama (shared medium), WLAN menerapkan metode CSMA/CA 
-dengan prinsip 'Listen Before Talk' untuk mencegah tabrakan data (collision).
+    <div class="slide-box">
+        <div class="slide-header">
+            <span>Karakteristik Alokasi Pita Frekuensi</span>
+            <span class="slide-num">Slide 11</span>
+        </div>
+        <div class="slide-body">
+            <p class="narasi">"Performa WLAN sangat dipengaruhi oleh spektrum frekuensi yang digunakan. Pita <b>2.4 GHz</b> memiliki keunggulan pada jangkauan luas dan kemampuan penetrasi dinding yang kuat, namun salurannya sangat padat.<br><br>
+            Spektrum <b>5 GHz</b> menawarkan <i>throughput</i> data tinggi dan minim interferensi, tetapi jarak jangkauannya lebih pendek. Sedangkan spektrum <b>6 GHz</b> menyediakan jalur terbersih dengan latensi mendekati nol, khusus untuk standar modern guna menghindari kendala <span class="keyword">co-channel interference</span>."</p>
+        </div>
+    </div>
 
-Prosesnya terbagi menjadi empat langkah dasar: Pertama, Carrier Sense, perangkat mendengarkan jalur udara untuk
-memastikan tidak ada aktivitas. Kedua, Random Backoff, jika jalur sibuk, perangkat menunda transmisi dan mengantre dalam waktu acak. 
-Ketiga, Transmisi Data, jika jalur kosong dalam interval aman (DIFS), data langsung dikirim. Keempat, Acknowledgment (ACK), 
-penerima mengirim balik sinyal ACK sebagai bukti data sukses diterima."
+    <div class="slide-box">
+        <div class="slide-header">
+            <span>Evolusi Protokol Enkripsi Keamanan</span>
+            <span class="slide-num">Slide 12</span>
+        </div>
+        <div class="slide-body">
+            <p class="narasi">"Aspek terakhir adalah enkripsi data. Standar generasi pertama, <b>WEP</b>, sudah dilarang karena kunci statis RC4-nya memiliki cacat keamanan kritis. Standar industri mayoritas saat ini adalah <b>WPA2</b> yang menggunakan enkripsi kuat berbasis <span class="keyword">AES</span> 128-bit. Sementara untuk proteksi mutakhir, kini digunakan standar <b>WPA3</b> yang mengintegrasikan mekanisme <span class="keyword">SAE</span> untuk menangkal serangan penebakan kata sandi (<i>brute-force</i>)."</p>
+        </div>
+    </div>
 
-Slide 11: Karakteristik Pita Frekuensi
-"Performa WLAN sangat dipengaruhi oleh spektrum frekuensi yang digunakan. Pita 2.4 GHz memiliki keunggulan pada 
-jangkauan luas dan kemampuan penetrasi dinding yang kuat, namun salurannya sangat padat.
+    <div class="slide-box">
+        <div class="slide-header">
+            <span>Sesi Diskusi & Penutup</span>
+            <span class="slide-num">Slide 13</span>
+        </div>
+        <div class="slide-body">
+            <p class="narasi">"Dapat disimpulkan bahwa pemahaman atas regulasi standar, arsitektur topologi, alur CSMA/CA, serta enkripsi keamanan adalah kunci utama dalam membangun jaringan nirkabel yang andal. Sekian presentasi dari Kelompok 1 Tim Kepepet, sesi diskusi dan tanya jawab kami persilakan. Terima kasih."</p>
+        </div>
+    </div>
 
-Spektrum 5 GHz menawarkan throughput data tinggi dan minim interferensi, tetapi jarak jangkauannya lebih pendek. 
-Sedangkan spektrum 6 GHz menyediakan jalur terbersih dengan latensi mendekati nol, khusus untuk standar modern guna menghindari kendala co-channel interference."
+</div>
 
-Slide 12: Protokol Keamanan
-"Aspek terakhir adalah enkripsi data. Standar generasi pertama, WEP, sudah dilarang karena kunci statis RC4-nya
-memiliki cacat keamanan kritis. Standar industri mayoritas saat ini adalah WPA2 yang menggunakan enkripsi kuat 
-berbasis AES 128-bit. Sementara untuk proteksi mutakhir, kini digunakan standar WPA3 yang mengintegrasikan mekanisme 
-SAE untuk menangkal serangan penebakan kata sandi (brute-force)."
-
-Slide 13: Penutup
-"Dapat disimpulkan bahwa pemahaman atas regulasi standar, arsitektur topologi, alur CSMA/CA, serta enkripsi
-keamanan adalah kunci utama dalam membangun jaringan nirkabel yang andal. Sekian presentasi dari Kelompok 1 
-Tim Kepepet, sesi diskusi dan tanya jawab kami persilakan. Terima kasih."
+</body>
+</html>
